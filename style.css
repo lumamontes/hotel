@@ -101,11 +101,7 @@ body, input, button, textarea{
     align-items: center;
     width: 90%;
     height: 90vh;
-    
-
 }
-
-
 
 @media (min-width: 700px){
     :root{
