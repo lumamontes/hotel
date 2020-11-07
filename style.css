@@ -129,7 +129,7 @@ margin-top:2rem;
     
 }
 
-#wifi,#light, #tshirt{
+#wifi, #light, #tshirt, #cat, #car{
     color:#000000;
     font-size:3rem;
     display: flex;
@@ -138,7 +138,7 @@ margin-top:2rem;
     align-items: center
 }
 i span{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-top: 0.5rem;
 }
 

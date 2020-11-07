@@ -1,164 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codar | soluções modernas </title>
-    
+    <title>Hotel</title>
     <script src="https://kit.fontawesome.com/ac4c6e2b8b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/responsive.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body id="page-lading">
-    
-    
-    <header>
+<body>
 
-        <nav>
-            <h1>Codar<span>.</span></h1>
+    <section id="homepage-container" >
+        <header>    
+            <nav>
+               <h3>HOTEL BRASIL</h3>
+                <ul class="hidden">
+                    <li>Home</li>
+                    <li>Quem somos</li>
+                    <li>Quartos</li>
+                    <li>Galeria</li>
+                </ul>
+                <a href="" class="button hidden">RESERVAR</a>
+                <i id="menu"class="fas fa-bars"></i>
+            </nav>
+        </header>
+
+        <article id=text-content>
+            <h1>
+                _____ Bem vindo ao _____ <br>
+                Hotel Brasil
+
+            </h1>
+        </article>
+    </section>
+    <div class="comodidades">
         
-             <div class="nav">
-             <a href="#inicio">Inicio</a>
-             <a href="#serviço">Serviços</a>
-             <a href="#contato">Contato</a>
-             <input type="button" value="login" class="login-button">
-            </div>
-        </nav>
-
-    
-             <div class="conteiner" id="inicio">
-                
-                <div class="img-video">
-                 <img class="video_call" src="/assets/video_call.png" alt="video_call">
-                </div>
-               
-                <div class="call">
-                <small>Alavanque seu negócio com um</small><p>
-                Website incrível</p> 
-                  
-                
-                <div class="call-campo">
-                  <input type="button" value="Solicitar Orçamento" class="call-button">
-                  </div>             
-               </div>
-            
-            
-            </div>
-
+        <h2>COMODIDADES</h2>
         
-    </header>
+        <div class="elipse">
+           <i id="wifi" class="fas fa-wifi"><span>WIFI</span></i>
+        </div>
+        <div class="elipse">
+            <i id="light" class="fas fa-lightbulb"><span>GERADOR</span></i>
+         </div>
+         <div class="elipse">
+            <i id="tshirt"class="fas fa-tshirt"><span>LAVADERIA</span></i>
+         </div>
+         <div class="elipse">
+            <i id="cat"class="fas fa-cat"><span>ESPAÇO PARA PETS</span></i>
+         </div>
+         <div class="elipse">
+            <i id="car" class="fas fa-car"><span>ESTACIONAMENTO</span></i>
+         </div>
+    </div>
 
-    <main>
-            <div class="keyboard" id="serviço">
-                <div id="keyboard-img">
-                    <img src="/assets/coding_.png" alt="coding" class="keyboard-img">
-                </div>
-                
-                <div class="points">
-                    <ul>
-                        <li>
-                        <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
-                        <p>Domínio personalizado</p>
-                        </li>
-                        <li>
-                           <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div> Hospedagem
-                        </li>
-                        <li>
-                           <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div>Site responsivo
-                        </li>
-                        <li>
-                           <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div>Redes sociais
-                        </li>
-                        <li>
-                           <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div>Chat online
-                        </li>
-                        <li>
-                           <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div> Blog integrado
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-            
-            
-            <div class="contato">
-                   <p>Nossa equipe está à disposição!</p>
-                <div class="texto-button"><input type="text" name="texto" id="texto" placeholder="  Celular">
-                <input type="button" value="Ligamos para você" id="butao">
-                 </div>
-            </div>
-
-           <div class="comment">
-               <div class="box">
-                  <div class="asia">
-                   <div class="japan">
-                   </div>
-                </div>
- 
-
-                 <div class="id">
-                <p class="coment">Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
-              <span class="nome">Pedro Ferreira</span> <small class="job">Construtora Minari</small>
-               </div>
-              
-            </div>
-               
-            <div class="box">
-                <div class="asia">
-                 <div class="japan">
-                 </div>
-                </div>
-
-
-               <div class="id">
-              <p class="coment">Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
-            <span class="nome">Maria Rita</span> <small class="job">Escola Criança Feliz</small>
-             </div>
-           </div>
-
-           </div>
-        
-           <footer id="contato">
-            <div class="footer-header">
-            <h1>Codar.</h1>
-            <span>
-                Criamos websites incríveis
-            </span>
-            </div>
-             
-            <div class="sobre-contato"> 
-              <div class="box-footer">
-                  <h2>Sobre</h2>
-                  <span>Amamos criar soluções <br>
-                    e entregar sites incríveis</span>
-              </div>
-             </div>
-              
-              <div class="sobre-contato">
-                 <div class="box-footer">  
-                <h2>Contato</h2>
-                   <span>
-                    123 Av. Manjar - Nárnia
-                </span>
-                    <span>+55 96 2321-3131 </span> 
-                    
-                     <span><u>contato@codar.com</u></span> 
-                
-                </div>   
-            </div>
-              <div class="redes">
-                  <h2>Redes sociais</h2>
-                  <div class="icon-1">
-                  <div class="icon"><i class="fab fa-facebook-square"></i></div>
-                    <div class="icon"><i class="fab fa-instagram"></i></div>
-                    <div class="icon"><i class="fab fa-twitter-square"></i></div>
-                </div>
-                  
-              </div>
-
-           </footer>
-
-    </main>
+    <div>
+        teste
+    </div>
 </body>
 </html>
