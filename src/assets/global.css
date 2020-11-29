@@ -35,6 +35,11 @@ a {
     color: var(--title-base-color);
 }
 
+p {
+    color: var(--text-base-color);
+    line-height: 3.2rem;
+}
+
 .container{
     width: 95vw;
     max-width: 1500px;
