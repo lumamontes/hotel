@@ -53,13 +53,14 @@ function Landing() {
                     <br></br>
                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur voluptatibus ipsa hic cumque unde impedit deserunt ab veniam, at labore, excepturi necessitatibus exercitationem laudantium assumenda facere nisi ducimus. Rem.</p>
 
-                    <img src={ImgRoom} alt="Imagem Quarto"/>
+                    <img  src={ImgRoom} alt="Imagem Quarto"/>
                 </div>
             </div>
 
             <div className="gallery container">
                 <h2 className="title">Galeria</h2>
                 <figure>
+                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
                     <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
                     <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
                     <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>

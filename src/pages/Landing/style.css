@@ -127,6 +127,30 @@ figure {
     #landing-container .room-content .room-cards {
         margin-bottom: 0;
     }
+    .about-container-container .about-info > img{
+        width: 40%;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+    .gallery h2{
+        text-align: center;
+    }
+    figure {
+        margin-left: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5rem; 
+        
+    }
+    .img-gallery {
+        width: 85%;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     
+        border-radius: 1rem;
+    }
 
 }
