@@ -50,6 +50,7 @@
     flex-wrap: wrap;
 
     justify-content: center;
+    margin-bottom: 10rem;
 }
 
 .about-container {
@@ -64,7 +65,7 @@
 }
 
 .about-container .about-intro > p {
-    width: 100vw;
+    width: 90vw;
     display: flex;
     justify-content: center;
     max-width: 1900px;
@@ -78,8 +79,12 @@
     flex-wrap: wrap;
     padding: 5rem 4rem;
     max-width: 1500px;
-
 }
+
+.leaftlet-container {
+    z-index: 5;
+}
+
 .about-container .about-info > img {
     width: 100%;
 }
@@ -94,5 +99,10 @@
     .about-container .about-info {
         flex-wrap: nowrap;
     }
+
+    #landing-container .room-content .room-cards {
+        margin-bottom: 0;
+    }
+    
 
 }

@@ -19,6 +19,7 @@
 
 .menu-bars {
     display: flex;
+    color: white;
 }
 
 /** desktop */
