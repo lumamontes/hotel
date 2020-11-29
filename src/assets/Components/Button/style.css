@@ -2,7 +2,6 @@
     display: inline-block;
     text-align: center;
     padding: 1rem 2rem 1rem;
-    border: 1px solid var(--button-color);
     border-radius: 0.8rem;
     margin: 1rem;
     background-color: var(--button-background-color);
