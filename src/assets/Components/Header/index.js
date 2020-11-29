@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../images/logo.jpg'
 import { FaBars } from 'react-icons/fa';
+import Button from '../Button'
 
 import './style.css'
 
@@ -17,6 +18,8 @@ function Header (props) {
                     <Link to="/">Quartos</Link>
                     <Link to="/">Galeria</Link>
                     <Link to="/">Contatos</Link>
+
+                    <Button action="Reservar"></Button>
             </div>
             <FaBars className="menu-bars"></FaBars>
 
