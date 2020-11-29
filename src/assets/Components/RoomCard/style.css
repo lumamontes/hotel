@@ -1,14 +1,17 @@
 .room-card {
     width: 100%;
-    height: 45vh;
+    max-width: 400px;
     border-radius: 8px;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem ;
 
     -webkit-box-shadow: -3px 5px 10px -1px #0000004d; 
     box-shadow: -3px 5px 10px -1px #000000a2;
+
+    margin: 1rem 0;
 }
 
 .room-card > img {
     width: 90%;
+    max-width: 400px;
 }
