@@ -33,7 +33,9 @@
 #landing-container .camcards {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+
+    justify-content: center;
 }
 #landing-container .amenities-content .title{
     color: var(--text-base-color);
@@ -43,21 +45,54 @@
     padding: 5rem 0;
 }
 #landing-container .room-content .room-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-    padding: 5rem 0;
+    justify-content: center;
 }
 
-
-
-.icon {
-    color: black;
-    width: 50px;
-    height: 50px;
+.about-container {
+    height: 90vh;
+    margin: 1rem 0;
+}
+#landing-container .about-container .about-intro{
+    background-image: url(../../assets/images/home-background.png);
+    background-position: center;
+    padding: 6rem 0;
 
 }
+
+.about-container .about-intro > p {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    max-width: 1900px;
+    color: var(--title-base-color);
+
+}
+
+.about-container .about-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem 4rem;
+    max-width: 1500px;
+
+}
+.about-container .about-info > img {
+    width: 100%;
+}
+
 @media (min-width: 700px){
+    #landing-container .room-content .room-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5rem;    
+    }
+
+    .about-container .about-info {
+        flex-wrap: nowrap;
+    }
 
 }
