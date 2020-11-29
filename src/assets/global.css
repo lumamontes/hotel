@@ -4,21 +4,39 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 60%;
 
+    --main-color: #243E9A;
+    --background-color: #FFFFFF;
+    --title-base-color: #FFFFFF;
+    --text-base-color: #000000;
+}
+
+body{
+    background: var(--background-color);
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body, input, button, textarea{
+    font-size: 2rem;
+    color: var(--title-base-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--title-base-color);
+}
 
 
 @media (min-width: 700px){
     :root{
         font-size: 65%;
-    }
-
-    .hidden {
-        display: flex;
-        visibility: visible;
-    }
-
-    .fas {
-        visibility: hidden;;
     }
 
 }
