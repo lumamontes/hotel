@@ -11,11 +11,8 @@
     --background-color: #FFFFFF;
     --title-base-color: #FFFFFF;
     --text-base-color: #000000;
-
     --button-color: #FFFFFF;
     --button-background-color: #243E9A;
-
-
 }
 
 body{
@@ -36,6 +33,11 @@ body, input, button, textarea{
 a {
     text-decoration: none;
     color: var(--title-base-color);
+}
+
+.container{
+    width: 95vw;
+    max-width: 700px;
 }
 
 
