@@ -1,0 +1,33 @@
+#landing-container .homepage-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/images/home-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#landing-container .homepage-container .homepage-text-content {
+    max-width: 700px;
+    height: 90vh;
+
+    font-size: 1.4em;
+    letter-spacing: 0.7rem;
+    padding-top: 10rem;
+    margin: 0 auto;
+
+}
+
+
+
+@media (min-width: 700px){
+    #landing-container .homepage-container .homepage-text-content {
+        padding: 10rem 0 0 15rem;
+        margin: 0;
+       
+    }
+}
