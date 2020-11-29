@@ -72,12 +72,13 @@ function Landing() {
             <MapContainer 
             center={[-0.0397109,-51.1774994]}
             zoom={16}
+            scrollWheelZoom={false}
             style={{width: '100%', height: '100%'}}
             >
             
             <TileLayer 
             url={`https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibHVtYW1vbnRlcyIsImEiOiJja2c2enN2bGgwMmZrMnFwYmsyMnd1eDJpIn0.j3nJhNinwAXTGG1Qfe6kPQ`}
-            />
+            /> 
             </MapContainer>
             
             </div>
