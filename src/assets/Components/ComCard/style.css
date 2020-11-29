@@ -1,0 +1,12 @@
+.elipse{
+    background:rgba(84, 43, 200, 0.64);
+    width:12rem;
+    height:12rem;
+    border-radius:30rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+
+}
