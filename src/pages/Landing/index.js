@@ -41,7 +41,7 @@ function Landing() {
                 </div>
 
             </div>
-            <div className="about-container container">
+            <div className="about-container-container">
                 <h2 className="title">Sobre</h2>
 
                 <div className="about-intro">
@@ -58,19 +58,19 @@ function Landing() {
             </div>
 
             <div className="gallery container">
-                <h2 className="title">Galeriaaaa</h2>
+                <h2 className="title">Galeria</h2>
                 <figure>
-                    <img src={ImgRoom} alt="Imagem Quarto"/>
-                    <img src={ImgRoom} alt="Imagem Quarto"/>
-                    <img src={ImgRoom} alt="Imagem Quarto"/>
-                    <img src={ImgRoom} alt="Imagem Quarto"/>
-                    <img src={ImgRoom} alt="Imagem Quarto"/>
+                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
+                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
+                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
+                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
+                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
                 </figure>
             </div>
             <div className="map-content">
             <MapContainer 
-            center={[0.048897,-51.1004567]}
-            zoom={15}
+            center={[-0.0397109,-51.1774994]}
+            zoom={16}
             style={{width: '100%', height: '100%'}}
             >
             
