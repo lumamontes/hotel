@@ -8,9 +8,17 @@ import ImgRoom from '../../assets/images/room.png';
 import WifiIcon from '../../assets/images/wifi.svg';
 import CoffeIcon from '../../assets/images/coffee-cup.svg';
 import EnergyIcon from '../../assets/images/lighting.svg';
-import { MapContainer, TileLayer} from 'react-leaflet';
+import MapMarker from '../../assets/images/map-marker.svg'
+import { MapContainer, TileLayer, Marker} from 'react-leaflet';
+import leaflet from "leaflet";
 import 'leaflet/dist/leaflet.css';
 
+const mapIcon = leaflet.icon({
+    iconUrl:MapMarker,
+    IconSize:[58,68],
+    iconAnchor:[26,68],
+
+});
 
 function Landing() {
     return (
@@ -79,6 +87,12 @@ function Landing() {
             <TileLayer 
             url={`https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibHVtYW1vbnRlcyIsImEiOiJja2c2enN2bGgwMmZrMnFwYmsyMnd1eDJpIn0.j3nJhNinwAXTGG1Qfe6kPQ`}
             /> 
+
+            <Marker
+            icon={mapIcon}
+            position={[-0.0397109,-51.1774994]}
+            
+            />
             </MapContainer>
             
             </div>
