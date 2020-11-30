@@ -25,6 +25,12 @@
     padding-bottom: 6rem;
 }
 
+.homepage-text-content h1{
+font-size: 5rem;
+}
+.homepage-text-content h2{
+    font-size: 3rem;
+}
 
 #landing-container .amenities-content {
     padding: 5rem 0;
@@ -127,6 +133,8 @@ figure {
     #landing-container .room-content .room-cards {
         margin-bottom: 0;
     }
+   
+    
     .about-container-container .about-info > img{
         width: 40%;
         height: 300px;

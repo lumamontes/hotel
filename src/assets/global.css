@@ -38,6 +38,8 @@ a {
 p {
     color: var(--text-base-color);
     line-height: 3.2rem;
+    font-weight: 400;
+    font-family: Noto Sans SC ;
 }
 
 .container{
@@ -51,6 +53,14 @@ p {
     
 }
 
+h1{
+    font-weight: 900;
+    font-family: Noto Sans SC ;    
+}
+h2{
+    font-weight: 700;
+    font-family: Noto Sans SC ; 
+}
 
 @media (min-width: 700px){
     :root{

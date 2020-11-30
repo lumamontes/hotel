@@ -9,7 +9,7 @@
     color: var(--button-color);
     font-weight: bold;
     transition: 200ms;
-
+    font: 400 1.8rem Noto Sans SC;
 }
 
 .button:hover {
