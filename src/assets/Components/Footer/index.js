@@ -29,7 +29,7 @@ function Footer() {
                 </div>
             </div>
 
-                <Link to="">feito por nois</Link>
+                <Link to="https://www.github.com/lumamontes/hotel/graphs/contributors" target="_blank"><i>por EQ</i></Link>
 
                 <div className="scroll-up">
                     <Link to="">
