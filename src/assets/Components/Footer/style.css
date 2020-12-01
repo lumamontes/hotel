@@ -1,9 +1,19 @@
 footer.footer-content {
     width: 100%;
-    height: 25vh;
+    /* height: 25vh; */
     background-color: black;
     color: white;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 700px){
+    footer.footer-content{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
 }
