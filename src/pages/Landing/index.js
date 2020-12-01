@@ -17,6 +17,7 @@ const mapIcon = leaflet.icon({
     iconUrl:MapMarker,
     IconSize:[58,68],
     iconAnchor:[26,68],
+    
 
 });
 
