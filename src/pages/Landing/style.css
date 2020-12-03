@@ -134,9 +134,16 @@ figure {
         margin-bottom: 0;
     }
    
-    
+    .about-container-container .about-info{
+        display:grid ;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 8rem;
+    }
+    .about-container-container .about-info > p{
+        font-size: 1.8rem;
+    }
     .about-container-container .about-info > img{
-        width: 40%;
+        width: 70%;
         height: 300px;
         margin: 0 auto;
         margin-top: 3rem;
