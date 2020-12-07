@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
 import Logo from '../../images/logo.jpg'
-// import { FaBars } from 'react-icons/fa';
 import Button from '../Button';
 import { MenuItems } from './MenuItens';
 
