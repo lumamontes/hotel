@@ -11,13 +11,13 @@
 }
 
 #landing-container .homepage-container .homepage-text-content {
-    max-width: 700px;
+    max-width: 750px;
     height: 90vh;
-
-    font-size: 1.4em;
+    font-size: 1.3em;
     letter-spacing: 0.7rem;
     color: var(--title-base-color);
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
