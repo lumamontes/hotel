@@ -1,30 +1,57 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
+// import { Link } from 'react-router-dom';
 import Logo from '../../images/logo.jpg'
-import { FaBars } from 'react-icons/fa';
-import Button from '../Button'
+// import { FaBars } from 'react-icons/fa';
+// import Button from '../Button';
+import { MenuItems } from './MenuItens';
 
 import './style.css'
 
-function Header (props) {
-    return (
-        <header id="header-container">
-             <div className="logo-container">
-                <img src={Logo} alt="Hotel Brasil"/>         
-            </div>
+class Header extends Component {
+    state= { clicked: false}
+    handleClick = () => {
+     this.setState({ clicked: !this.state.clicked })                   
+    }
 
-             <div className="header-content">
-                    <Link to="/">Quem somos</Link>
-                    <Link to="/">Quartos</Link>
-                    <Link to="/">Galeria</Link>
-                    <Link to="/">Contatos</Link>
+    render () {
+        return (
+            <nav className="NavbarItems">
+                 <div className="logo-container">
+                    <img src={Logo} alt="Hotel Brasil"/>         
+                </div>
+                <div className="menu-icon" onClick={this.handleClick}>
+                    <i className={ this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+  
+                </div>
+                <ul className={this.state.clicked ? 'nav-menu active': 'nav-menu'}>
+                    {MenuItems.map((item, index) =>{
+                        return (
+                            <li key={index}>
+                                <a className={item.cName} href={item.url}>
+                                {item.title}
+                                </a>
+                            </li>
+                        )
+                    })}                
+                </ul>
+            </nav>
 
-                    <Button action="Reservar"></Button>
-            </div>
-            <FaBars className="menu-bars"></FaBars>
+            // <header id="header-container">
 
-        </header>
+    
+            //     <div className="header-content">
+            //             <Link to="/">Quem somos</Link>
+            //             <Link to="/">Quartos</Link>
+            //             <Link to="/">Galeria</Link>
+            //             <Link to="/">Contatos</Link>
+    
+            //             <Button action="Reservar"></Button>
+            //     </div>
+            //     <FaBars className="menu-bars"></FaBars>
+            // </header>
         )
+    }
+    
 }
 
 export default Header;
