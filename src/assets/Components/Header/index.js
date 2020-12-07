@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 import Logo from '../../images/logo.jpg'
 // import { FaBars } from 'react-icons/fa';
-// import Button from '../Button';
+import Button from '../Button';
 import { MenuItems } from './MenuItens';
 
 import './style.css'
@@ -34,21 +34,9 @@ class Header extends Component {
                         )
                     })}                
                 </ul>
+                <Button class="navButton" action="Reservar"></Button>
             </nav>
 
-            // <header id="header-container">
-
-    
-            //     <div className="header-content">
-            //             <Link to="/">Quem somos</Link>
-            //             <Link to="/">Quartos</Link>
-            //             <Link to="/">Galeria</Link>
-            //             <Link to="/">Contatos</Link>
-    
-            //             <Button action="Reservar"></Button>
-            //     </div>
-            //     <FaBars className="menu-bars"></FaBars>
-            // </header>
         )
     }
     
