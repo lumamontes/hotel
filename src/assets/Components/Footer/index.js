@@ -6,36 +6,40 @@ import './style.css'
 function Footer() {
     return (
         <footer className="footer-content">
-            <div className="contacts">
             <h1 className="title">Hotel Brasil</h1>
+            <div className="contacts">
                 <div>
-                    <FaEnvelope className="icon"></FaEnvelope>
-                    <Link to=""> lorem ipsum </Link>
+                    <Link>
+                        <FaEnvelope className="icon"></FaEnvelope>
+                    </Link>
                 </div>
 
                 <div>
-                    <FaInstagramSquare></FaInstagramSquare>
-                    <Link to="">lorem ipsum</Link>
+                    <Link>
+                        <FaInstagramSquare></FaInstagramSquare>
+                    </Link>
                 </div>
 
                 <div>
-                    <FaWhatsappSquare></FaWhatsappSquare>
-                    <Link to="">lorem ipsum</Link>
+                    <Link>
+                        <FaWhatsappSquare></FaWhatsappSquare>
+                    </Link>
                 </div>
 
                 <div>
-                    <FaFacebookSquare></FaFacebookSquare>
-                    <Link to="">lorem ipsum</Link>
+                    <Link>
+                        <FaFacebookSquare></FaFacebookSquare>
+                    </Link>
                 </div>
-            </div>
 
-                <Link to="https://www.github.com/lumamontes/hotel/graphs/contributors" target="_blank"><i>por EQ</i></Link>
-
-                <div className="scroll-up">
-                    <Link to="">
+                <div>
+                <Link className="scroll-up" to="">
                     <FaArrowAltCircleUp></FaArrowAltCircleUp>
                     </Link>
                 </div>
+            </div>
+
+                {/* <Link to="https://www.github.com/lumamontes/hotel/graphs/contributors" target="_blank"><i>por EQ</i></Link> */}
         </footer>
     )
 }
