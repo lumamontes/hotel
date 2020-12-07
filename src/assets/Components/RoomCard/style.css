@@ -12,6 +12,9 @@
     transition: 300ms;
 
 }
+.room-card p{
+    font-size: 1.7rem;
+}
 .room-card:hover  {
     transform: scale(1.020);
 

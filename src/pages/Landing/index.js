@@ -9,9 +9,12 @@ import WifiIcon from '../../assets/images/wifi.svg';
 import CoffeIcon from '../../assets/images/coffee-cup.svg';
 import EnergyIcon from '../../assets/images/lighting.svg';
 import MapMarker from '../../assets/images/map-marker.svg'
+import CarIcon from "../../assets/images/car.svg"
 import { MapContainer, TileLayer, Marker} from 'react-leaflet';
 import leaflet from "leaflet";
 import 'leaflet/dist/leaflet.css';
+import Gallery from "../../assets/Components/Gallery"
+ 
 
 const mapIcon = leaflet.icon({
     iconUrl:MapMarker,
@@ -27,7 +30,7 @@ function Landing() {
             <div className="homepage-container">
                 <Header />
                 <div className="homepage-text-content">
-                    <h2> Bem vindo ao</h2> <br></br>
+                    <h3> Bem vindo ao</h3> <br></br>
                     <h1>Hotel Brasil</h1>
                 </div>
             </div>
@@ -38,6 +41,7 @@ function Landing() {
                     <CamCard image={WifiIcon} comodidade="Wifi"></CamCard>
                     <CamCard image={CoffeIcon} comodidade="Café Regional"></CamCard>
                     <CamCard image={EnergyIcon} comodidade="Gerador"></CamCard>
+                    <CamCard image={CarIcon} comodidade="Estacionamento"></CamCard>
                 </div>
             </div>
 
@@ -67,15 +71,7 @@ function Landing() {
             </div>
 
             <div className="gallery container">
-                <h2 className="title">Galeria</h2>
-                <figure>
-                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
-                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
-                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
-                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
-                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
-                    <img className="img-gallery" src={ImgRoom} alt="Imagem Quarto"/>
-                </figure>
+                <Gallery></Gallery>
             </div>
             <div className="map-content">
             <MapContainer 

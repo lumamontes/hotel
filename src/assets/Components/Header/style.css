@@ -6,6 +6,7 @@
     font: 300 1.8rem Noto Sans SC;
 }
 
+
 .logo-container {
     justify-self: start;
     margin-left: 20px;
@@ -131,4 +132,6 @@
     nav.NavbarItems .button {
         display: none;
     }
+
+
 }

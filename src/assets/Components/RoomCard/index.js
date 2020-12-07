@@ -6,9 +6,11 @@ function RoomCard (props) {
     return (
         <div className="room-card">
             <img src={props.image} alt="Imagem de Quarto"/>
-            <h3>{props.roomName}</h3>
+            <h4>{props.roomName}</h4>
+            
+            <Button action="Reservar"></Button>
+            
             <p>{props.roomCost}</p>
-            <Button action="Pré-Reserva"></Button>
         </div>
     )
 }

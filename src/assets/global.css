@@ -54,12 +54,22 @@ p {
 }
 
 h1{
-    font-weight: 900;
+    font-weight: 800;
     font-family: Noto Sans SC ;    
 }
 h2{
     font-weight: 700;
     font-family: Noto Sans SC ; 
+    margin-bottom: 3rem;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Noto Sans SC ; 
+}
+h4{
+    font:700 2rem Noto Sans Sc;     
 }
 
 @media (min-width: 700px){
