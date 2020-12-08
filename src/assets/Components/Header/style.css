@@ -72,7 +72,7 @@
     }
 
     .nav-menu.active {
-        background-color: black;
+        background: rgba(0, 0, 0, 0.8);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -82,8 +82,13 @@
     .nav-links {
         text-align: center;
         padding: 2rem;
-        width: 100%;
+        width: 60%;
         display: table;
+      
+        background-color: var(--button-background-color);
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
 
     .nav-links:hover{
