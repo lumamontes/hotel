@@ -49,8 +49,9 @@ function Landing() {
                 <h2 className="title"> Quartos</h2>
                 <div className="room-cards">
                     <RoomCard image={ImgRoom} roomName="Suite Single" roomCost="$90,00"></RoomCard>
-                    <RoomCard image={ImgRoom} roomName="Suite Single" roomCost="$90,00"></RoomCard>
-                    <RoomCard image={ImgRoom} roomName="Suite Single" roomCost="$90,00"> </RoomCard>
+                    <RoomCard image={ImgRoom} roomName="Suite Single" roomCost="$110,00"></RoomCard>
+                    <RoomCard image={ImgRoom} roomName="Suite Single" roomCost="$125,00"> </RoomCard>
+                    <RoomCard image={ImgRoom} roomName="Suite Single" roomCost="$140,00"> </RoomCard>
                 </div>
 
             </div>
