@@ -74,13 +74,10 @@ font-size: 5rem;
     text-align: center;
 }
 .about-container-container .about-intro > p {
-    width: 90vw;
-    display: flex;
-    justify-content: center;
-    max-width: 1900px;
     color: var(--title-base-color);
-    text-align: center;
-    
+    text-align: justify;
+    max-width: 700px;    
+    margin: 0 auto;
 }
 
 .about-container-container .about-info {
