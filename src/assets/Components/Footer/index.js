@@ -39,7 +39,6 @@ function Footer() {
                 </div>
             </div>
 
-                {/* <Link to="https://www.github.com/lumamontes/hotel/graphs/contributors" target="_blank"><i>por EQ</i></Link> */}
         </footer>
     )
 }
